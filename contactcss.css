@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+.tm-nav{
+	float: right;
+	line-height: 70px;
+}
+.tm-nav ul{
+	margin-left: 0px;
+	
+}
+.tm-nav ul li{
+	
+	display: inline-block;
+}
+.tm-nav ul li a{
+	padding: 50px;
+	text-decoration: none;
+	font-family:'Acme',sans-serif;
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: white;
+
+}
+.tm-nav ul li a:hover{
+	color: #746fbc;
+	font-size: 1.8em;
+
+}
+body{
+	background-color: black;
+}
+.icons{
+	clear: both;
+	
+	position: absolute;
+	top: 370px;
+	left:590px;
+	color: white;
+
+}
+.icons a{
+	color: #e20016;
+	padding: 20px;padding-right: 20px;
+	align-items: center;
+	font-size: 3em;
+	
+}
+.icons a:hover{
+	color: #992165;
+	font-size: 5em;
+}
+.up{
+	position: absolute;
+	bottom: -50px;
+	left: 550px;
+}
