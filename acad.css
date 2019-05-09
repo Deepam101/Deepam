@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	background-image: url('images/acadback.jpg') ;
+
+	z-index: -1;
+}
+
+.tm-nav{
+	float: right;
+	line-height: 120px;
+}
+.tm-nav ul{
+	margin-left: 0px;
+	
+}
+.tm-nav ul li{
+	
+	display: inline-block;
+}
+.tm-nav ul li a{
+	padding: 50px;
+	text-decoration: none;
+	font-family:'Acme',sans-serif;
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: black;
+
+}
+.tm-nav ul li a:hover{
+	color: #746fbc;font-size: 1.8em;
+}
+
+.floaters{
+	padding: 10px;
+	z-index: 1;
+	height: 100%;
+	top:0;left: 0;
+}
+.floaters div{
+		top: 67%;
+	position: absolute;
+	display:block;
+}
+.floaters div:nth-child(1){
+	
+	left: 10%; animation: animate 1s linear ;
+	
+}
+.floaters div:nth-child(2){
+	b
+	transform: scale(.7);
+	left: 30%;animation: animate 1.1s linear ;
+}
+.floaters div:nth-child(3){
+	left:45%;animation: animate .9s linear ;
+	
+}
+.floaters div:nth-child(4){
+	left: 70%;animation: animate 1.2s linear ;
+	animation-delay: .1s
+	z-index=2;
+}
+.floaters div:nth-child(5){
+	left: 90%;animation: animate 1.05s linear ;
+	
+}
+.floaters div:nth-child(6){
+	left: 0%;animation: animate .98s linear ;
+}
+.floaters div:nth-child(7){
+	left: 80%;animation: animate 1.01s linear ;
+}
+.floaters div:nth-child(8){
+	left: 20%;animation: animate 1.1s linear ;
+}
+.floaters div:nth-child(9){
+	left: 56%;animation: animate .89s linear ;
+}
+.floaters div:nth-child(10){
+	left: 90%;animation: animate .8s linear ;
+}
+
+
+@keyframes animate{
+	0%{
+		top: -30%;
+	}
+	50%{
+		top: 67%;
+
+	}
+	84%{
+		top: 50%;
+	}
+	91%
+	{
+		top: 50%;
+	}
+	100%{
+		top: 67%;
+	}
+}
+.para{
+	padding: 30px;
+	clear: both;
+	font-size: 1.9em;
+	font-family: cursive;
+	text-decoration:none;
+}
+
+
+
