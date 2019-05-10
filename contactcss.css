@@ -31,18 +31,19 @@ body{
 	background-color: black;
 }
 .icons{
+	position: relative;
 	clear: both;
+	top: 200px;
 	
-	position: absolute;
-	top: 370px;
-	left:590px;
+	text-align: center;
+	vertical-align: middle;
 	color: white;
 
 }
 .icons a{
 	color: #e20016;
 	padding: 20px;padding-right: 20px;
-	align-items: center;
+	
 	font-size: 3em;
 	
 }
@@ -50,8 +51,7 @@ body{
 	color: #992165;
 	font-size: 5em;
 }
-.up{
-	position: absolute;
-	bottom: -50px;
-	left: 550px;
+.up{ position: relative;
+	text-align: center;
+	top: 300px;
 }

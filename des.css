@@ -21,6 +21,8 @@ body{
 	border: 1px solid black;
 }	
 .tm-nav{
+	
+	z-index: 1;
 	float: right;
 	line-height: 120px;
 }
